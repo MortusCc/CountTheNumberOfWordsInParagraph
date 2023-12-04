@@ -35,6 +35,7 @@ void FindWord(char str[LEN1 + 1], char Str[LEN2 + 1])
 			p[x] = i;
 			x++;
 		}
+		temp[0] = '\0';
 	}
 	if (n == 0)
 	{
@@ -42,7 +43,7 @@ void FindWord(char str[LEN1 + 1], char Str[LEN2 + 1])
 	}
 	else
 	{
-		printf("%d %d", n, p[0]);
+		printf("%d %d\n", n, p[0]);
 		//printf("%d\n", n);
 		//for (int i = 0; Str[i] != '\0'; i++)
 		//{

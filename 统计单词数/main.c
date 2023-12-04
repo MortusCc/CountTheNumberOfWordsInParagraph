@@ -5,7 +5,8 @@ int main(void)
 	char str[LEN1 + 1];
 	char Str[LEN2 + 1];
 	scanf(" %s", str);
-	scanf(" %[^\n]", Str);
+	getchar();
+	scanf("%[^\n]", Str);
 	FindWord(str, Str);
 	return 0;
 }
